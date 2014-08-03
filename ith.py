@@ -6,14 +6,14 @@ from bdd import db_manager
 from pentest import pentest
 from config import bddConfiguration
 from update import update
-import os
-import sys
 
 import signal
 
 
 def exitHandler(signum, frame):
-    print "\r\n \r\n["+bcolors.OKBLUE+">"+bcolors.ENDC+"] Thank you for using ITH. See you soon!"
+    # Deconnexion from database
+    db_manager.deconnexion(db_manager_instance, db)
+    print "["+bcolors.OKBLUE+">"+bcolors.ENDC+"] Thank you for using ITH. See you soon!"
     exit()
 
 signal.signal(signal.SIGINT, exitHandler)
@@ -343,7 +343,9 @@ while 1 == 1:
         misc.homeMenuEN(misc_instance)
     
     elif user_choice == "q":
-        print "\r\n \r\n["+bcolors.OKBLUE+">"+bcolors.ENDC+"] Thank you for using ITH. See you soon!"
+        # Deconnexion from database
+        db_manager.deconnexion(db_manager_instance, db)
+        print "["+bcolors.OKBLUE+">"+bcolors.ENDC+"] Thank you for using ITH. See you soon!"
         exit()
     else:
         print "["+bcolors.FAIL+"-"+bcolors.ENDC+"] Wrong choice, please choose a value in (1,2,3,4,u,h,q)"

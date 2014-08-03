@@ -27,7 +27,7 @@ Installation:
  
  2- Setup the database connexion in : config.py (Host, user, password & db).
  
- 3- #~ Python create_db.py (To create & import the google dorks database).
+ 3- #~ python create_db.py (To create & import the google dorks database).
  
- 4- #~ Python ith.py (Enjoy!).
+ 4- #~ python ith.py (Enjoy!).
 

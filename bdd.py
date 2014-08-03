@@ -28,7 +28,7 @@ class db_manager:
                 print "["+bcolors.FAIL+"*"+bcolors.ENDC+"] Exit!"                
             
             else:
-                print "["+bcolors.FAIL+"-"+bcolors.ENDC+"] Please, verify your configuration file (config.file) section : #Database configuration"
+                print "["+bcolors.FAIL+"-"+bcolors.ENDC+"] Please, verify your configuration file (config.py) section : #Database configuration"
             
             exit()
     

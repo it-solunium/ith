@@ -38,7 +38,7 @@ class db_manager:
         
     def deconnexion(self, db):
         db.close()
-        print "["+bcolors.OKGREEN+"-"+bcolors.ENDC+"] Disconnected from database"
+        print "\r\n \r\n["+bcolors.OKGREEN+"-"+bcolors.ENDC+"] Disconnected from database"
         
     def searchDorksWithKeywords(self, db_cur, keywords):
         # Search database for dorks with keywords

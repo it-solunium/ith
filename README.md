@@ -17,8 +17,9 @@ After getting the result, we launch the pentest.
 
 Pre-requisites:
 
-Python 2.7
-MySql
+* Python 2.7
+* 
+* MySql
 
 Installation:
 

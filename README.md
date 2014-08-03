@@ -5,11 +5,11 @@ Open source Python tool to pentest websites using Mysql offline google dorks dat
 
 Description :
 
-[Ith] Is a python open source tool, under GPL v2 license, developped to do pentest for websites using MySql offline offensive security google dorks database.
+[Ith] Is a python open source tool, under GPL v2 license, developped to pentest websites using MySql offline offensive security google dorks database.
 
 Also, [Ith] is used to search this database for dorks by category or using keywords and export results for other works.
 
-For example, if we like to pentest a given website for a specific dork or a list of common dorks, let's say that we need to test a website running joomla (with some tiers modules) for SQLi, we will choose option (2) (Search database for dorks by category with keywords), with category (1) (SQL Injection) and keywords : (joomla; com_newsletter).
+For example, if we like to pentest a given website for a specific dork or a list of common dorks, let's say that we need to pentest a website running joomla (with some tiers modules) for SQLi, we will choose option (2) (Search database for dorks by category with keywords), with category (1) (SQL Injection) and keywords : (joomla; com_newsletter).
 
 After getting the result, we launch the pentest.
 

@@ -19,10 +19,11 @@ def exitHandler(signum, frame):
 signal.signal(signal.SIGINT, exitHandler)
 
 # Get connexion parameters from config.py section bdd
-print "Initialisation :"
 misc_instance = misc()
 # Clear screen
 misc.clearScreen(misc_instance)
+print "Initialisation :"
+
 connexionParameters = []
 connexionParameters = misc.readConfFile(misc_instance, "BddConfig")
 

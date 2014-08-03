@@ -22,8 +22,8 @@ MySql
 
 Installation:
 
-1- Clone the git solution from :  https://github.com/it-solunium/ith.git
-2- Setup the database connexion from : config.py (Host, user, password & db)
-3- Execute : Python create_db.py (To create & import the google dorks database)
-4- Enjoy! (Python ith.py)
+ 1- Clone the git solution from :  https://github.com/it-solunium/ith.git.
+ 2- Setup the database connexion in : config.py (Host, user, password & db).
+ 3- Execute : Python create_db.py (To create & import the google dorks database).
+ 4- Enjoy! (Python ith.py).
 

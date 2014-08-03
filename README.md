@@ -15,31 +15,6 @@ After getting the result, we launch the pentest.
 
 [Ith] is easy for use and i hope that you find it helpful.
 
-Home screen:
-
-Initialisation :
-
-Reading Bdd configuration section
-Connexion to local database.
-Connected to database
-
-Version: 1.0 
-Date : 31/07/2014 
-Author :  FATHI Med Ali (It-Solunium) 
-Source of dorks : [http://www.exploit-db.com/google-dorks/] 
-
-Please, select an option : 
-
-(1) Search database for dorks with keywords. 
-(2) Search database for dorks by category with keywords. 
-(3) Search database for dorks by Id(db-exploit). 
-(4) ITH configuration. 
-(u) Update database. 
-(h) Help. 
-(q) Quit. 
-
--> 
-
 Pre-requisites:
 
 Python 2.7

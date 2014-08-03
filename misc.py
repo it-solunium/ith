@@ -5,7 +5,6 @@ import urllib2
 from config import bddConfiguration
 import sys
 import os
-from bs4 import BeautifulSoup, UnicodeDammit
 import chardet
 import re
 

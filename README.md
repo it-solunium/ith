@@ -23,11 +23,11 @@ Pre-requisites:
 
 Installation:
 
- 1- #~ git clone https://github.com/it-solunium/ith.git.
+ 1- ~# git clone https://github.com/it-solunium/ith.git.
  
  2- Setup the database connexion in : config.py (Host, user, password & db).
  
- 3- #~ python create_db.py (To create & import the google dorks database).
+ 3- ~# python create_db.py (To create & import the google dorks database).
  
- 4- #~ python ith.py (Enjoy!).
+ 4- ~# python ith.py (Enjoy!).
 

@@ -163,7 +163,7 @@ class misc:
 
         print "["+bcolors.FAIL+"Ith"+bcolors.ENDC+"] Is a python open source tool, under "+bcolors.OKGREEN+"GPL v2 license"+bcolors.ENDC+", developped to do pentest for websites using MySql offline offensive security google dorks database. \r\n"
         print "Also, ["+bcolors.FAIL+"Ith"+bcolors.ENDC+"] is used to search this database for dorks by category or using keywords and export results for other works.\r\n"
-        print "For example, if i like to pentest a given website for a specific dork or a list of common dorks, let's say that i wont to test a website running joomla (with some tiers modules) for SQLi, i choose option (2) Search database for dorks by category with keywords, with category (1) SQL Injection and keywords : joomla; com_newsletter. \r\n"
+        print "For example, if we like to pentest a given website for a specific dork or a list of common dorks, let's say that we need to test a website running joomla (with some tiers modules) for SQLi, i choose option (2) Search database for dorks by category with keywords, with category (1) SQL Injection and keywords : joomla; com_newsletter. \r\n"
         print "After getting the result, we launch the pentest.\r\n"
         print bcolors.WARNING+"It's easy for use and i hope that you find it helpful"+bcolors.ENDC
         

@@ -15,6 +15,9 @@ After getting the result, we launch the pentest.
 
 [Ith] is easy for use and i hope that you find it helpful.
 
+Demo:
+https://www.youtube.com/watch?v=GVBnf2bfJFQ
+
 Pre-requisites:
 
 * Python 2.7

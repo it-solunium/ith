@@ -9,7 +9,8 @@ Description :
 
 Also, [Ith] is used to search this database for dorks by category or using keywords and export results for other works.
 
-For example, if we like to pentest a given website for a specific dork or a list of common dorks, let's say that we need to pentest a website running joomla (with some tiers modules) for SQLi, we will choose option (2) (Search database for dorks by category with keywords), with category (1) (SQL Injection) and keywords : (joomla; com_newsletter).
+Let's say, if we like to pentest a given website for a specific dork or a list of common dorks like as we need to pentest a website running joomla (with some tiers modules) for SQLi, we will choose option (2) (Search database for dorks by category with keywords), with category (1) (SQL Injection) and keywords : (joomla; com_newsletter; exploit).
+Adding (exploit) as keyword, the results contains public exploit from exploit-db.
 
 After getting the result, we launch the pentest.
 

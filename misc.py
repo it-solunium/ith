@@ -69,7 +69,7 @@ class misc:
         App_Header = "\r\n"
         App_Header += "        ### ##### ### ##### ## ### ##### ##### ####################\r\n"
         App_Header += "        #                   "
-        App_Header += bcolors.OKGREEN+"["+bcolors.ENDC+bcolors.FAIL+"ITH"+bcolors.ENDC+bcolors.OKGREEN+"] IN THE HELL"+bcolors.ENDC
+        App_Header += bcolors.OKGREEN+"[      "+bcolors.ENDC+bcolors.FAIL+"ITH"+bcolors.ENDC+bcolors.OKGREEN+"      ]"+bcolors.ENDC
         App_Header += "                     #\r\n"
         App_Header += "        #                                                         #\r\n"            
         App_Header += "        #      "

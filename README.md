@@ -34,4 +34,8 @@ Installation:
  3- ~# python create_db.py (To create & import the google dorks database).
  
  4- ~# python ith.py (Enjoy!).
+ 
+ More details:
+ 
+ My Blog: http://test-intrusion.blogspot.com/2014/08/ith-python-open-source-tool-for-website-pentesting-using-google-dorks.html
 
